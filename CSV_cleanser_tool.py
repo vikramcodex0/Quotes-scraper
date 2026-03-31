@@ -27,4 +27,4 @@ with open("quotes.csv", "w", newline="", encoding="utf-8-sig") as file:
 
         writer.writerow([clean_quote, clean_author])
 
-print("CSV file clean ban gayi ✅")
+print("CSV file succesfully clean  ✅")
