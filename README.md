@@ -25,7 +25,7 @@ python quotes_scraper.py
 python analyzer.py
 
 ## Output 
-CSV, Excel & analysis results
+- CSV, Excel & analysis results
 
 - Excel file
 - Analysis results
