@@ -19,7 +19,6 @@ Simple Python project to scrape quotes and analyze data.
 
 ## How to Run
 pip install requests beautifulsoup4
-
 python quotes_scraper.py
 python analyzer.py
 
