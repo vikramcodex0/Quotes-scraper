@@ -1,31 +1,43 @@
-# Quotes Scraper & Analyzer
-Simple Python project to scrape quotes and analyze data.
+# Quotes Scraper Pro 🚀
 
-## Features
-- Scrapes quotes from website
-- Saves data in CSV & Excel
-- Basic data analysis
+Advanced Python web scraping project to extract quotes, authors, and tags from multiple pages.
 
-## Tech
+## 🔥 Features
+- Multi-page scraping (auto pagination)
+- Extract quotes, authors & tags
+- Save data into CSV file
+- Clean structured dataset
+- Beginner-friendly code
+
+## 🛠️ Technologies Used
 - Python
 - requests
 - BeautifulSoup
 
-## Files
-- quotes_scraper.py → scraping
-- analyzer.py → analysis
-- quotes.csv → data
-- quotes.xlsx → excel
+## 📂 Project Files
+- multi_page_scraping.py → main scraper (multi-page)
+- quotes_full_data.csv → scraped dataset
+- quotes_scraper.py → single page scraper (old version)
+- analyzer.py → data analysis
 
-## How to Run
+## ▶️ How to Run
+
+1. Install dependencies:
 pip install requests beautifulsoup4
 
-python quotes_scraper.py
+2. Run scraper:
+python multi_page_scraping.py
 
+3. (Optional) Run analyzer:
 python analyzer.py
 
-## Output 
-- CSV, Excel & analysis results
+## 📊 Output
+- CSV file (quotes + authors + tags)
 
-- Excel file
-- Analysis results
+## 🚀 Future Improvements
+- Export to Excel
+- Add filtering (by author/tag)
+- Build simple UI (Streamlit)
+
+## 👨‍💻 Author
+Vikram Prajapati
